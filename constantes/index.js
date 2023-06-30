@@ -1,6 +1,6 @@
 //Const: Uma variavel que não pode ser alterada
 
-const PI = 3.14159;
+const PI = 3.14159;//Uma boa pratica é o nome da constante possuir todas as letras maisculas
 let radius;
 let circumference;
 

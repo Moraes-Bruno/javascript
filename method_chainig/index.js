@@ -1,4 +1,5 @@
 //Method chaining: É quando um metodo é chamado após outro metodo na mesma linha de codigo
+//Em outras palavras:Concatenação de metodos
 
 let username = "john"
 

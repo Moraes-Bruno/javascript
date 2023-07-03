@@ -1,4 +1,4 @@
-//Um loop dentro de outro
+//Um loop dentro de outro loop
 
 let symbol = window.prompt("Digite um simbolo")
 let rows = window.prompt("Digite a quantidade de linhas")

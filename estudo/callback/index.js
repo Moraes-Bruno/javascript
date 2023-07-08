@@ -13,5 +13,5 @@ function displayConsole(output) {
 }
 
 function displayDom(output) {
-    document.getElementById("p1").innerHTML = output
+    document.getElementById("p1").innerHTML = output;
 }

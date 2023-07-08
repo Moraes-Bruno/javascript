@@ -3,7 +3,7 @@ let guesses = 0;
 
 document.getElementById("botao").onclick = function () {
 
-    let guess = document.getElementById("num").value
+    let guess = document.getElementById("num").value;
     guesses++;
 
     if (guess == ANSWEAR) {

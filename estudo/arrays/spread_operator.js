@@ -14,3 +14,4 @@ let germanCars = ["Bmw", "mercedes", "Porsche"];
 cars.push(...germanCars);
 
 console.log(...cars);
+

@@ -1,5 +1,5 @@
 let grades = [5, 8, 10, 8, 3, 7];
-grades = grades.sort(ascendingSort);
+grades = grades.sort(descendingSort);
 
 grades.forEach(print);
 

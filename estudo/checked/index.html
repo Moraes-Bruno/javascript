@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Checked</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Seleciona um metodo de Pagamento</h1>
     <h2>Credito é definido como padrão</h2>
 
-    <label for="credito">Credito</label>
-    <input type="radio" name="metodo"  id="credito" value="credito" checked>
+    <div class="pagamento">
+      <div>
+        <input
+          type="radio"
+          name="metodo"
+          id="credito"
+          value="credito"
+          checked
+        />
+        <label for="credito">Credito</label>
+      </div>
+      <div>
+        <input type="radio" name="metodo" value="debito" id="debito" />
+        <label for="debito">Debito</label>
+      </div>
+      <div>
+        <input type="radio" name="metodo" value="pix" id="pix" />
+        <label for="pix">Pix</label>
+      </div>
+    </div>
 
-    <label for="debito">Debito</label>
-    <input type="radio" name="metodo" value="debito" id="debito">
-
-    <label for="pix">Pix</label>
-    <input type="radio" name="metodo" value="pix"  id="pix">
-
-    <input type="submit" id="submit" value="Selecionar">
+    <input type="submit" id="submit" value="Selecionar" />
 
     <p id="resposta"></p>
 
     <script src="ex001.js"></script>
-
-</body>
+  </body>
 </html>

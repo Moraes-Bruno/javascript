@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rolar Dados</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main class="content">
-        <h1>Dados</h1>
-        <div class="input">
-            <label for="qtdDados"># de dados</label>
-            <input type="number" name="qtdDados" id="qtdDados">
-            <input type="submit" value="Rolar Dados" id="submit">
-        </div>
+      <h1>Rolar Dados</h1>
+      <div class="input">
+        <label for="qtdDados"># de dados</label>
+        <input type="number" name="qtdDados" id="qtdDados" value="1" min="1" />
+        <input
+          type="submit"
+          onclick="rolarDado()"
+          value="Rolar Dados"
+          id="submit"
+        />
+      </div>
+      <p id="resultaDoDado"></p>
+      <div id="dadoImg"></div>
     </main>
-   
+
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

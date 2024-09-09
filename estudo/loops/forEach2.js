@@ -8,6 +8,10 @@ function upperCase(element, index, array) {
   array[index] = element.toUpperCase();
 }
 
+function lowerCase(element, index, array) {
+  array[index] = element.toLowerCase();
+}
+
 function captalize(element, index, array){
     array[index] = element.charAt(0).toUpperCase() + element.slice(1);
 }

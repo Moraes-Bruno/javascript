@@ -1,0 +1,10 @@
+p{
+    font-size: 4em;
+    text-align: center;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

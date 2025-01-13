@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/seven-segment');
+
+*{
+    font-family: monospace;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#calculator {
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#bezel {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 20px;
+}
+
+#model{
+margin-bottom: 10px;
+margin-right: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+color: white;
+font-size: 1.2em;
+}
+
+#display {
+  width: 90%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+  background-color:#a7c9a1;
+  color: rgb(1, 41, 11);
+  font-family: 'Seven Segment', sans-serif;
+  border-radius: 5px;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+button:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.operator {
+  background-color: rgb(230, 151, 4);
+}
+
+.operator:hover {
+  background-color: orange;
+}
+
+.operator:active {
+  background-color: rgb(248, 176, 41);
+}

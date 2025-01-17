@@ -16,7 +16,7 @@ newH1.style.textAlign = "center";
 
 document.getElementById("box1").prepend(newH1)
 
-const box2 = document.getElementById("box2");
+//const box2 = document.getElementById("box2");
 
 //insere o elemento antes do box 2
 //document.body.insertBefore(newH1, box2);
